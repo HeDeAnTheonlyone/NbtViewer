@@ -1,4 +1,4 @@
-package com.nbt_viewer;
+package hedeantheonlyone.github.io.nbt_viewer;
 
 import net.fabricmc.api.ModInitializer;
 

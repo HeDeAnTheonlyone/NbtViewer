@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.nbt_viewer.NbtViewer"
+			"hedeantheonlyone.github.io.nbt_viewer.NbtViewer"
 		],
 		"client": [
-			"com.nbt_viewer.NbtViewerClient"
+			"hedeantheonlyone.github.io.nbt_viewer.NbtViewerClient"
 		]
 	},
 	"mixins": [

@@ -1,4 +1,4 @@
-package com.nbt_viewer.mixin;
+package hedeantheonlyone.github.io.nbt_viewer.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
