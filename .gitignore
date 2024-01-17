@@ -1,11 +1,9 @@
 # gradle
 
-.gradle
-.gradle
-build
-run
-out
-classes
+.gradle/
+build/
+out/
+classes/
 
 # eclipse
 
@@ -13,16 +11,16 @@ classes
 
 # idea
 
-.idea
+.idea/
 *.iml
 *.ipr
 *.iws
 
 # vscode
 
-.settings
-.vscode
-bin
+.settings/
+.vscode/
+bin/
 .classpath
 .project
 
