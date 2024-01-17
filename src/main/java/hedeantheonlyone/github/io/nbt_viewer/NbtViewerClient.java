@@ -66,10 +66,10 @@ public class NbtViewerClient implements ClientModInitializer {
 			if (nbt.isEmpty())
 				return;
 
-			List<Text> a = colorizeNbt(nbt.asString());
+			List<Text> nbtLines = colorizeNbt(nbt.asString());
 
-			for (Text b : a) {
-				lines.add(b);
+			for (Text nbtTxt : nbtLines) {
+				lines.add(nbtTxt);
 			}
 
 			//lines = a;
@@ -140,6 +140,8 @@ public class NbtViewerClient implements ClientModInitializer {
 						
 						if (nbt.charAt(pointer) != ',' && nbt.charAt(pointer) != '}')
 							colorNbt.append("§c" + nbt.charAt(pointer));
+						else
+							pointer--;
 					}
 					else
 						continue;
