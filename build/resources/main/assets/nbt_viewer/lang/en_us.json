@@ -1,0 +1,9 @@
+{
+    "category.nbt_viewer.nbt_viewer": "NBT Viewer",
+    "key.nbt_viewer.toggle_nbt": "Toggle NBT in item tooltip",
+    "key.nbt_viewer.toggle_indentation": "Toggle indentation",
+    "setting.nbt_viewer.show_item_nbt_true": "NBT in item tooltip enabled",
+    "setting.nbt_viewer.show_item_nbt_false": "NBT in item tooltip disabled",
+    "setting.nbt_viewer.apply_indentation_true": "NBT indentation/linebreak gets applied",
+    "setting.nbt_viewer.apply_indentation_false": "NBT indentation/linebreak gets not applied"
+}

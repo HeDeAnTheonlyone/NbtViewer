@@ -1,0 +1,7 @@
+/give @s minecraft:acacia_fence{SpecialTag:1b}
+/data get entity @s
+/give @s minecraft:acacia_fence{SpecialTag:1b}
+/data get entity @s
+/give @s minecraft:command_block
+/data get entity @s
+/give @s minecraft:acacia_fence{SpecialTag:1b}
